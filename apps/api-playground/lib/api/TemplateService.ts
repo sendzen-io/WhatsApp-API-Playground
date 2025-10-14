@@ -1,12 +1,3 @@
-// Template Service for API Playground
-// ========================================
-// This service uses Facebook Graph API directly (graph.facebook.com)
-// 
-// API ENDPOINTS:
-// - API Playground: graph.facebook.com (this file)
-// - Product App: api.sendzen.io (apps/product/lib/api/TemplateService.ts)
-// ========================================
-
 import { ITemplateService, MessageTemplate } from '@workspace/ui-api-playground';
 
 const FACEBOOK_GRAPH_API_URL = 'https://graph.facebook.com/v21.0';
